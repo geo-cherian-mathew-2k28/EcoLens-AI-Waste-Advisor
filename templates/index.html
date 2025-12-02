@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♻️ EcoLens: AI Waste Advisor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f8f0; /* Light green background */
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #008000; /* Green header */
+            margin-bottom: 5px;
+        }
+        p.tagline {
+            color: #555;
+            margin-bottom: 30px;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+        }
+        button {
+            background-color: #008000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #006400;
+        }
+        .result-box {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+            text-align: left;
+            min-height: 100px;
+            background-color: #e6ffe6; /* Lighter result background */
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .prediction-label {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #008000;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EcoLens: AI Waste Advisor</h1>
+        <p class="tagline">Upload an image of your waste item for instant recycling advice.</p>
+
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/png, image/jpeg, image/jpg" required>
+            <button type="submit">Analyze Waste Item</button>
+        </form>
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if prediction %}
+            <div class="result-box">
+                <h2>✅ Analysis Result:</h2>
+                <div class="prediction-label">{{ prediction }}</div>
+                <h3>Recycling Advice:</h3>
+                <p>{{ advice }}</p>
+                <small style="color: #666;">Note: Classification performed by MobileNetV2 architecture (POC).</small>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

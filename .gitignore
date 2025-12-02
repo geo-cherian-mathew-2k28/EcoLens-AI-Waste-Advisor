@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+
+# Python Caching
+__pycache__/
+
+# TensorFlow/Keras Caching
+.keras/
+
+# Temporary Files (Like the ones saved by Flask)
+uploads/
+
+# Operating System Files
+.DS_Store
+
+# Log files
+*.log
