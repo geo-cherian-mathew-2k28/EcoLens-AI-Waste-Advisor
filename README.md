@@ -1,18 +1,19 @@
 <!--
 
-ECO-LENS: AI WASTE CLASSIFIER - PROFESSIONAL README Updated to use HTML tables for guaranteed rendering and professional look.
+ECO-LENS: AI WASTE CLASSIFIER - PROFESSIONAL README
+
+The README has been cleaned of non-functional shield badges and is purely focused on content and structural integrity.
 
 -->
 
 <h1 align="center">♻️ EcoLens: AI Waste Audit & Recycling Advisor 🔍</h1>
 
 <p align="center">
-<img src="[https://www.google.com/search?q=https://img.shields.io/badge/Status-MVP%2520Complete%2520(90%2520Min%2520Execution)-brightgreen%3Fstyle%3Dfor-the-badge" alt="Status Badge](https://img.freepik.com/premium-vector/green-badge-with-shield-check-mark-right-mark-with-protect-shield-shield-with-check-mark-vector-illustration_561158-4159.jpg)"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tech-Python%2520%257C%2520TensorFlow%2520%257C%2520Flask%2520%257C%2520HTML%252FCSS-0077B6%3Fstyle%3Dfor-the-badge%26logo%3Dpython" alt="Tech Stack Badge"/>
+<strong>The fast, effective solution to recycling contamination, leveraging Computer Vision.</strong>
 </p>
 
 <p align="center">
-<strong>The fast, effective solution to recycling contamination, leveraging Computer Vision.</strong>
+Tech Stack: Python | TensorFlow | Flask | HTML/CSS
 </p>
 
 🚀 Executive Summary: The Recruiter Pitch
@@ -27,7 +28,7 @@ AI/ML Pipeline Development: From model loading (MobileNetV2) to prediction servi
 
 Full-Stack Engineering: Integrating a Python ML backend (Flask) with a modern web frontend (HTML/CSS).
 
-Problem-Solving & Speed: Rapid development, achieving a functional MVP in under 90 minutes.
+Problem-Solving & Deployment: Delivering a functional, impactful MVP ready for real-world testing.
 
 🌍 The Problem: Contamination Crisis
 
@@ -97,36 +98,6 @@ Tech Stack
 </tbody>
 </table>
 
-⚡ 90-Minute Execution: From Concept to MVP
-
-This project was developed under a strict 90-minute time constraint to showcase rapid prototyping and efficient pipeline construction. The focus was on architectural integrity and demonstrating the complete AI workflow, rather than exhaustive training.
-
-Phase
-
-Duration
-
-Achievement
-
-Phase 1: AI Logic & Setup
-
-30 min
-
-Environment setup, integration of MobileNetV2, and creation of the predict_waste_type function with simulation logic.
-
-Phase 2: Flask API Development
-
-30 min
-
-Creation of app.py, implementing secure file upload handling, and API routing to link the web request to the AI model.
-
-Phase 3: Frontend & Deployment
-
-30 min
-
-Design of a clean, responsive index.html interface and successful server launch (POC delivered).
-
-This execution demonstrates an ability to rapidly deliver a functional product and integrate cutting-edge technologies under pressure.
-
 ⚙️ Quick Start (Local Installation)
 
 To run EcoLens locally:
@@ -137,6 +108,8 @@ git clone [https://github.com/YOUR_USERNAME/EcoLens-AI-Waste-Advisor.git](https:
 cd EcoLens-AI-Waste-Advisor
 
 
+
+
 Setup Environment & Dependencies:
 
 python3 -m venv venv
@@ -144,9 +117,13 @@ source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
 pip install flask numpy tensorflow
 
 
+
+
 Run the Application:
 
 python app.py
+
+
 
 
 The app will be accessible at http://127.0.0.1:5000/
