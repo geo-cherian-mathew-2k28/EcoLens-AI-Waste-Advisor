@@ -7,7 +7,7 @@ ECO-LENS: AI WASTE CLASSIFIER - PROFESSIONAL README Updated to use HTML tables f
 <h1 align="center">♻️ EcoLens: AI Waste Audit & Recycling Advisor 🔍</h1>
 
 <p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-MVP%2520Complete%2520(90%2520Min%2520Execution)-brightgreen%3Fstyle%3Dfor-the-badge" alt="Status Badge"/>
+<img src="[https://www.google.com/search?q=https://img.shields.io/badge/Status-MVP%2520Complete%2520(90%2520Min%2520Execution)-brightgreen%3Fstyle%3Dfor-the-badge" alt="Status Badge](https://img.freepik.com/premium-vector/green-badge-with-shield-check-mark-right-mark-with-protect-shield-shield-with-check-mark-vector-illustration_561158-4159.jpg)"/>
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Tech-Python%2520%257C%2520TensorFlow%2520%257C%2520Flask%2520%257C%2520HTML%252FCSS-0077B6%3Fstyle%3Dfor-the-badge%26logo%3Dpython" alt="Tech Stack Badge"/>
 </p>
 
