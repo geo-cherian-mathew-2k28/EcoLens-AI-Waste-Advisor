@@ -18,25 +18,25 @@ Tech Stack: Python | TensorFlow | Flask | HTML/CSS
 
 🚀 Executive Summary: The Recruiter Pitch
 
-EcoLens is a full-stack Proof-of-Concept (POC) application that solves a critical social and environmental problem: recycling contamination.
+  EcoLens is a full-stack Proof-of-Concept (POC) application that solves a critical social and environmental problem: recycling contamination.
 
-Instead of relying on outdated static lookup tables, EcoLens uses Artificial Intelligence (Computer Vision) to instantly classify uploaded images of waste (e.g., plastic, cardboard, general trash) and provide localized disposal guidance.
+  Instead of relying on outdated static lookup tables, EcoLens uses Artificial Intelligence (Computer Vision) to instantly classify uploaded images of waste (e.g., plastic, cardboard, general trash) and provide localized disposal         guidance.
 
 This project demonstrates proficiency in:
 
-AI/ML Pipeline Development: From model loading (MobileNetV2) to prediction serving.
+  AI/ML Pipeline Development: From model loading (MobileNetV2) to prediction serving.
 
-Full-Stack Engineering: Integrating a Python ML backend (Flask) with a modern web frontend (HTML/CSS).
+  Full-Stack Engineering: Integrating a Python ML backend (Flask) with a modern web frontend (HTML/CSS).
 
-Problem-Solving & Deployment: Delivering a functional, impactful MVP ready for real-world testing.
+  Problem-Solving & Deployment: Delivering a functional, impactful MVP ready for real-world testing.
 
 🌍 The Problem: Contamination Crisis
 
-Recycling facility operations are severely hampered by incorrect sorting. When non-recyclable materials are placed in the wrong bins, entire batches can be contaminated, forcing valuable recyclables into landfills. This inefficiency increases operational costs and reduces the environmental impact of recycling efforts.
+  Recycling facility operations are severely hampered by incorrect sorting. When non-recyclable materials are placed in the wrong bins, entire batches can be contaminated, forcing valuable recyclables into landfills. This inefficiency    increases operational costs and reduces the environmental impact of recycling efforts.
 
 ✨ The Solution: EcoLens
 
-EcoLens provides an intuitive, user-friendly interface to ensure items are recycled correctly, every time.
+  EcoLens provides an intuitive, user-friendly interface to ensure items are recycled correctly, every time.
 
 <table width="100%">
 <thead>
@@ -67,7 +67,7 @@ EcoLens provides an intuitive, user-friendly interface to ensure items are recyc
 
 🛠 Technical Architecture
 
-EcoLens is built around a scalable microservice architecture, allowing the AI and Web components to operate independently.
+  EcoLens is built around a scalable microservice architecture, allowing the AI and Web components to operate independently.
 
 Tech Stack
 
@@ -104,28 +104,28 @@ To run EcoLens locally:
 
 Clone the Repository:
 
-git clone [https://github.com/YOUR_USERNAME/EcoLens-AI-Waste-Advisor.git](https://github.com/YOUR_USERNAME/EcoLens-AI-Waste-Advisor.git)
-cd EcoLens-AI-Waste-Advisor
+    git clone [https://github.com/YOUR_USERNAME/EcoLens-AI-Waste-Advisor.git](https://github.com/YOUR_USERNAME/EcoLens-AI-Waste-Advisor.git)
+    cd EcoLens-AI-Waste-Advisor
 
 
 
 
 Setup Environment & Dependencies:
 
-python3 -m venv venv
-source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
-pip install flask numpy tensorflow
+    python3 -m venv venv
+    source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
+    pip install flask numpy tensorflow
 
 
 
 
 Run the Application:
 
-python app.py
+    python app.py
 
 
 
 
-The app will be accessible at http://127.0.0.1:5000/
+    The app will be accessible at http://127.0.0.1:5000/
 
 Test: Upload an image (e.g., a photo of a bottle, paper, or box) and observe the AI classification and advice.
